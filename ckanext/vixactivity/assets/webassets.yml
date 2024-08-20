@@ -1,0 +1,14 @@
+# vixactivity-js:
+#   filter: rjsmin
+#   output: ckanext-vixactivity/%(version)s-vixactivity.js
+#   contents:
+#     - js/vixactivity.js
+#   extra:
+#     preload:
+#       - base/main
+
+# vixactivity-css:
+#   filter: cssrewrite
+#   output: ckanext-vixactivity/%(version)s-vixactivity.css
+#   contents:
+#     - css/vixactivity.css
